@@ -1,3 +1,4 @@
+/* Home page & general style for others */
 body 
 {
     background-color:#694873;
@@ -51,7 +52,7 @@ a
 .reading
 {
     font-weight:bold;
-    border-style:double;
+    border-style:solid;
     padding: 2px;
     width:50%;
     margin:5px;
@@ -61,7 +62,7 @@ a
 .prep-box 
 {
     font-weight:bold;
-    border-style:double;
+    border-style:solid;
     padding: 2px;
     width:50%;
     margin:5px;
@@ -70,7 +71,7 @@ a
 .grading-box
 {
     font-weight:bold;
-    border-style:double;
+    border-style:solid;
     padding: 2px;
     width:50%;
     margin:5px;
@@ -79,7 +80,7 @@ a
 .lab-box
 {
     font-weight:bold;
-    border-style:double;
+    border-style:solid;
     padding: 2px;
     width:50%;
     margin:5px;
@@ -127,4 +128,84 @@ div.day-box.COMPLETED
     border-radius:20px;
     font-size:20px;
 }
+
+
+/*  Update Account */
+
+label
+{
+    color:white;
+    background-color:#85B79D;
+    border-style:inset;
+    margin-bottom:30px;
+    margin-left:20px;
+}
+
+input
+{
+    margin-right:95%;
+    margin-top:10px;
+    margin-bottom:20px;
+    margin-left:60px;
+}
+
+/* grades */
+
+.title
+{
+    color:black;
+    font-weight: bolder;
+    font-size:120%;
+    text-align: center;
+    padding:3px;
+    margin:20px;
+}
+h3
+{
+    color:floralwhite;
+    font-weight:bolder;
+    font-size:120%;
+    margin-left:5px;
+}
+
+.grade
+{
+    color:floralwhite;
+    font-weight:bolder;
+    font-size:120%;
+    height: 50px;
+    width: 50px;
+    border-style:double;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:35px;
+    margin-bottom:10px;
+    background-color:#16302B;
+}
+
+tr
+{
+    padding: 7px 10px 10px 10px;
+    font-size:25px;
+    border-style:solid;
+    font-weight:bold;
+    width:35%;
+    margin:3px auto;
+    text-align:center;
+    background-color:#E9FFDD;
+    border-radius:30px;
+    color:#16302B;
+}
+
+td
+{
+    border: 1px solid;
+    empty-cells: show;
+    padding: 3px;
+    margin: 2px;
+}
+
+
+
+
 
